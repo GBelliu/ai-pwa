@@ -12,6 +12,8 @@ export const Container = styled.section`
 
   h1 {
     color: #fff;
+    font-weight: 600;
+    font-size: 20px;
   }
 `;
 export const ContentSelected = styled.div`

@@ -10,7 +10,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import { empreendimentos } from "../../empreendimentos";
 import { useTheme } from "../../ThemeContext";
 import ProgressBar from "@ramonak/react-progress-bar";
-
+import "react-circular-progressbar/dist/styles.css";
 interface DataSelectedProps {
   empreendimento: any;
 }
@@ -27,6 +27,7 @@ export function DataSelected({ empreendimento }: DataSelectedProps) {
             pathColor: theme.primaryColor,
             trailColor: "#D9D9D9",
             textColor: "#282828",
+            textSize: "20px",
           })}
         />
       </GraphicContainer>
@@ -39,6 +40,7 @@ export function DataSelected({ empreendimento }: DataSelectedProps) {
             <ProgressBar
               completed={item.value}
               bgColor={`linear-gradient(45deg, ${theme.primaryColor}, ${theme.secondaryColor})`}
+              labelSize="12px"
             />
           </ProgressContent>
         ))}

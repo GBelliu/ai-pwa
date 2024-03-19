@@ -9,8 +9,8 @@ export const pageThemes = {
     secondaryColor: "#5097C2",
   },
   dinapoli2: {
-    primaryColor: "#3366ff",
-    secondaryColor: "#33ff57",
+    primaryColor: "#ffcb57",
+    secondaryColor: "#002649",
   },
   // adicione os temas para as outras páginas aqui...
 };

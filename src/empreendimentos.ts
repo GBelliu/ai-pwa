@@ -22,26 +22,27 @@ export const empreendimentos: any = {
       },
     ],
   },
-  // dinapoli2: {
-  //   name: "Di Napoli II",
-  //   total: 50,
-  //   data: [
-  //     {
-  //       name: "Terraplanagem",
-  //       value: 100,
-  //     },
-  //     {
-  //       name: "Fundação",
-  //       value: 100,
-  //     },
-  //     {
-  //       name: "Alvenaria",
-  //       value: 75,
-  //     },
-  //     {
-  //       name: "Acabamento",
-  //       value: 20,
-  //     },
-  //   ],
-  // },
+  dinapoli2: {
+    name: "Di Napoli II",
+    total: 50,
+    imageName: "dinapoli1logo.png",
+    data: [
+      {
+        name: "Terraplanagem",
+        value: 100,
+      },
+      {
+        name: "Fundação",
+        value: 100,
+      },
+      {
+        name: "Alvenaria",
+        value: 75,
+      },
+      {
+        name: "Acabamento",
+        value: 20,
+      },
+    ],
+  },
 };
