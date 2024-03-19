@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import {
   Back,
+  ButtonArea,
   CardOption,
   Container,
   ContentOptions,
@@ -47,6 +48,15 @@ export function Empreendimentos() {
                 </CardOption>
               );
             })}
+
+            <ButtonArea
+              href="https://area-incrivel.vercel.app/"
+              target="_blank"
+            >
+              <img src="logocinza.png" alt="" />
+              <h2>Ir para o site</h2>
+              <ArrowBigRight color="#C21313" />
+            </ButtonArea>
           </ContentOptions>
         )}
       </Container>

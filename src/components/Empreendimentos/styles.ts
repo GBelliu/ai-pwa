@@ -92,3 +92,34 @@ export const CardOption = styled.div`
     height: 65px;
   }
 `;
+
+export const ButtonArea = styled.a`
+  width: 100%;
+  border-radius: 15px;
+  background: #fff;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:active {
+    transform: scale(0.95) translateZ(0px) !important;
+  }
+
+  &:hover {
+    transform: scale(1.03) translateZ(0px);
+  }
+
+  h2 {
+    font-size: 16px;
+    color: #282828;
+    font-weight: 700;
+  }
+
+  img {
+    height: 50px;
+  }
+`;
