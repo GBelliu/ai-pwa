@@ -25,7 +25,7 @@ export const empreendimentos: any = {
   dinapoli2: {
     name: "Di Napoli II",
     total: 50,
-    imageName: "dinapoli1logo.png",
+    imageName: "dinapoli2logo.png",
     data: [
       {
         name: "Terraplanagem",
